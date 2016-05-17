@@ -1,0 +1,100 @@
+body{font-family:LiSu;
+   text-shadow:#000 2px 0 0,#000 0 2px 0,#000 -1px 0 0,#000 0 -1px 0;
+   -webkit-text-shadow:#000 1px 0 0,#000 0 1px 0,#000 -1px 0 0,#000 0 -1px 0;
+   -moz-text-shadow:#000 1px 0 0,#000 0 1px 0,#000 -1px 0 0,#000 0 -1px 0;
+   *filter: Glow(color=#000, strength=1);
+   color:#F6E469;
+   font-size:3vmin;
+   background:url('../images/bg.jpg');
+   background-size:100% 100%;
+   background-repeat:no-repeat;
+     }
+ul,li{
+   list-style-type:none;
+   margin:0px;
+   }
+.za{
+   position:absolute;
+   top:25%;
+   left:25%;
+   right:25%;
+   bottom:30%;
+   height:40vh;
+   width:50vw;
+   }
+.rs{
+   text-shadow: 5px 5px 5px #000;
+   position:absolute;
+   right:20%;
+   bottom:2%;
+   height:24vh;
+   width:30vw;
+   }
+.jxtd{
+   text-shadow: 5px 5px 5px #000;
+   position:absolute;
+   left:20%;
+   bottom:0%;
+   height:30vh;
+   width:30vw;
+   }   
+.zj{
+   background:url('../images/blk.png');
+   background-size:100% 100%;
+   background-repeat:no-repeat;
+   position:absolute;
+   top:10%;
+   left:5%;
+   right:5%;
+   bottom:20%;
+   height:30vh;
+   width:45vw;
+   overflow: hidden;
+   }
+.zj div{
+   position:absolute;
+   top:1%;
+   width:98%}
+#texes{
+   height:8vh;
+   text-align:center;
+   font-size:6vmin;
+   color:red;
+   text-shadow:#000 1px 0 0,#000 0 1px 0,#000 -1px 0 0,#000 0 -1px 0;
+   }
+#current{
+   text-align:center;
+   font-size:8vmin}
+.btnl{
+   position:absolute;
+   top:85%;
+   left:5%;
+   right:55%;
+   bottom:5%;
+   height:30%;
+   width:40%;
+   }
+.btnr{
+   position:absolute;
+   top:85%;
+   left:56%;
+   right:5%;
+   bottom:5%;
+   height:30%;
+   width:40%;
+   }
+.scrollDiv{
+   height:21vh;
+   line-height:3vh;
+   overflow:hidden;
+   }
+.scrollDiv li{
+   height:3vh;
+      padding-left:10px;
+   }
+#sel{
+   position:absolute;
+      right:5%;
+   overflow:hidden;
+   height:12%
+   }

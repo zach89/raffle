@@ -1,0 +1,56 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+        <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <title>奖项设置编辑</title>
+        <style type="text/css">
+        body{margin-top:70px; }
+        /*demo styles*/
+        table{margin:0 auto;border-collapse:collapse; }
+        td, th{ width:10%; font-size:14px; padding:10px 0; text-align:center;border:1px solid #ddd; }
+        th {background-color:#f4f4f4;} 
+        /* input */
+        </style>
+    </head>
+    <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+             <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="ht.html">后台管理</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="jx.html">奖项设置<span class="sr-only">(current)</span></a></li>
+                        <li><a href="ep.html">员工管理</a></li>
+                        <li><a href="winner.html">中奖查询</a></li>
+                      </ul>
+            </div>
+    </nav>
+    <div class="container">
+        <table class='table'>    
+                    <tr>
+                        <th><input class='form-control' id="jxt"></th>
+                        <th><input class='form-control'id="jxl"></th>
+                        <th><button id="btnt" class="btn btn-block btn-success">添加奖项</button></th>
+            		</tr>
+            		<tr id="ep">    
+                        <th>奖项</th>
+                        <th>奖品(示例:2名,奖品iphone100一台)</th>
+                        <th>编辑</th>
+                    </tr>
+                    <tr><td colspan="3"><button class="btn btn-block btn-warning">删除最后一个奖项</button></td></tr>
+        </table>
+    </div>
+    <script type="text/javascript" src='../js/jx.js'></script>
+    </body>
+</html>
