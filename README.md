@@ -4,7 +4,7 @@
 MYSQL+PHP5.4
 后台页面：backviews/index.html
 抽奖页面: index.html
-
+数据库：user(name,team,group) jx(number,jx,jxl)
 ## 本地运行
 php/zsql.php
 填写password,raffle(database)
