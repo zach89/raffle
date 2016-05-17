@@ -3,7 +3,7 @@ header("Content-type: text/html; charset=utf-8");
 class Z_Mysql{
 	//$sql1 = 'SELECT * FROM user';
 	function getData($sql){
-		$mysqli = new mysqli('localhost','root','zach1989','raffle');
+		$mysqli = new mysqli('localhost','root','password','raffle');
 		if (mysqli_connect_errno()){
 			die('Could not connect: ' . mysql_error());
 		}
@@ -19,7 +19,7 @@ class Z_Mysql{
 	}
 
 	function runSql($sql){
-		$mysqli = new mysqli('localhost','root','zach1989','raffle');
+		$mysqli = new mysqli('localhost','root','password','raffle');
 		if (mysqli_connect_errno()){
 			die('Could not connect: ' . mysql_error());
 		}
